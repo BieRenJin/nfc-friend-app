@@ -41,9 +41,9 @@ const CheckInPage = ({ userName = 'Caroline' }) => {
           className="mt-[51px]"
         >
           <img
-            src="/images/avatar-default.png"
+            src="/images/avatar-current.png"
             alt={userName}
-            className="w-[120px] h-[120px] object-cover rounded-full border border-black"
+            className="w-[120px] h-[120px] object-cover rounded-full"
           />
         </motion.div>
 
