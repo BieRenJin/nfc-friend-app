@@ -8,6 +8,13 @@
   box-sizing: border-box;
 }
 
+button {
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', system-ui, sans-serif;

@@ -72,9 +72,10 @@ const FriendPage = ({ userName = 'Caroline' }) => {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={handleYes}
-                className="w-[108px] h-[32px] bg-black rounded-[15px] flex items-center justify-center"
+                className="w-[130px] h-[44px] rounded-[15px] flex items-center justify-center"
+                style={{ backgroundColor: '#000000', color: '#FFFFFF', border: 'none', outline: 'none' }}
               >
-                <span className="text-white font-bold text-[14px] leading-[20px] tracking-tight">
+                <span className="font-extrabold text-[16px] leading-[20px] tracking-tight">
                   Yes
                 </span>
               </motion.button>
@@ -82,9 +83,9 @@ const FriendPage = ({ userName = 'Caroline' }) => {
               {/* Dismiss Button */}
               <motion.button
                 disabled
-                className="w-[108px] h-[32px] bg-[#D9D9D9] rounded-[15px] flex items-center justify-center opacity-50 cursor-not-allowed"
+                className="w-[130px] h-[44px] bg-[#D9D9D9] rounded-[15px] flex items-center justify-center opacity-50 cursor-not-allowed"
               >
-                <span className="text-white font-bold text-[14px] leading-[20px] tracking-tight">
+                <span className="text-white font-extrabold text-[16px] leading-[20px] tracking-tight">
                   Dismiss
                 </span>
               </motion.button>
